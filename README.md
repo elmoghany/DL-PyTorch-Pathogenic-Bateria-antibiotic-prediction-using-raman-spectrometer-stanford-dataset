@@ -59,7 +59,7 @@ data/y_2018clinical.npy
 data/X_2019clinical.npy
 data/y_2019clinical.npy
 ```
-  ![text](/results/results/binarized-antibiotic-prediction-clinical.png)
+![text](/results/binarized-antibiotic-prediction-clinical.png)
 
 
 
