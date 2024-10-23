@@ -26,6 +26,11 @@ Used to finetune the model after training on the reference data
 data/X_finetune.npy
 data/y_finetune.npy
 ```
+- With non-binarized bacteria predictions
+  ![text](/results/bacteria-prediction-finetune.png)
+
+- With binarized bacteria predictions
+  ![text](/results/binarized-antibiotic-prediction-finetune.png)
 
 ### Test data
 Used to test the model output and ensure it is working correctly
