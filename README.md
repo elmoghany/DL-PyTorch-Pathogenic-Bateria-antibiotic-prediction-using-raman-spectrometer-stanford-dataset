@@ -61,6 +61,9 @@ data/y_2019clinical.npy
 ```
 ![text](/results/binarized-antibiotic-prediction-clinical.png)
 
+# Bacteria input samples vs Bacteria predicted samples confusion matrix
+![text](/results/bacteria-prediction-confusion-matrix.png)
 
+# Binarized bacteria into antibiotic confusion matrix
+![text](/results/binarized-antibiotic-confusion-matrix.png)
 
-##
