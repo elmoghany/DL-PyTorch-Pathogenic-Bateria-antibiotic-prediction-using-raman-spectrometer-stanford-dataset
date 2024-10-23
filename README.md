@@ -14,6 +14,11 @@ Used to train the model from scratch
 data/X_reference.npy
 data/y_reference.npy
 ```
+- With non-binarized bacteria predictions
+  ![text](/results/bacteria-prediction-x-ref.png)
+
+- With binarized bacteria predictions
+  ![text](/results/binarized-antibiotic-prediction-x-ref.png)
 
 ### Finetune data
 Used to finetune the model after training on the reference data
