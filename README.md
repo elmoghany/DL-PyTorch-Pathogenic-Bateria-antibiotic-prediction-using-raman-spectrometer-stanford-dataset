@@ -26,7 +26,7 @@ Shape breakdown:
 data/X_reference.npy
 data/y_reference.npy
 ```
-- With non-binarized bacteria predictions (CNN)
+- With non-binarized bacteria predictions (Classical CNN)
   ![text](/results/bacteria-prediction-x-ref.png)
   
 - With non-binarized bacteria predictions (ViT Vision Transformer)
@@ -43,8 +43,11 @@ Used to finetune the model after training on the reference data. Shape of (3000,
 data/X_finetune.npy
 data/y_finetune.npy
 ```
-- With non-binarized bacteria predictions
+- With non-binarized bacteria predictions (Classical CNN)
   ![text](/results/bacteria-prediction-x-finetune.png)
+  
+- With non-binarized bacteria predictions (ViT Vision Transformer)
+  ![text](/results/bacteria-prediction-x-finetune-ViT.png)
 
 - With binarized bacteria predictions
   ![text](/results/binarized-antibiotic-prediction-x-fine-tune.png)
