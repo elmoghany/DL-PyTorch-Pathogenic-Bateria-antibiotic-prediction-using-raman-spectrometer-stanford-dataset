@@ -26,11 +26,14 @@ Shape breakdown:
 data/X_reference.npy
 data/y_reference.npy
 ```
-- With non-binarized bacteria predictions
-  ![text](/results/bacteria-prediction-x-ref.png)
+- With non-binarized bacteria predictions (Classical CNN)
+  ![picture](/results/bacteria-prediction-x-ref.png)
+  
+- With non-binarized bacteria predictions (ViT Vision Transformer)
+  ![picture](/results/bacteria-prediction-x-ref-ViT.png)
 
 - With binarized bacteria predictions
-  ![text](/results/binarized-antibiotic-prediction-x-ref.png)
+  ![picture](/results/binarized-antibiotic-prediction-x-ref.png)
 
 ### Finetune data
 Used to finetune the model after training on the reference data. Shape of (3000,1000)
@@ -40,11 +43,14 @@ Used to finetune the model after training on the reference data. Shape of (3000,
 data/X_finetune.npy
 data/y_finetune.npy
 ```
-- With non-binarized bacteria predictions
-  ![text](/results/bacteria-prediction-x-finetune.png)
+- With non-binarized bacteria predictions (Classical CNN)
+  ![picture](/results/bacteria-prediction-x-finetune.png)
+  
+- With non-binarized bacteria predictions (ViT Vision Transformer)
+  ![picture](/results/bacteria-prediction-x-finetune-ViT.png)
 
 - With binarized bacteria predictions
-  ![text](/results/binarized-antibiotic-prediction-x-fine-tune.png)
+  ![picture](/results/binarized-antibiotic-prediction-x-fine-tune.png)
 
 
 ### 2018 & 2019 Clinical data
@@ -59,11 +65,11 @@ data/y_2018clinical.npy
 data/X_2019clinical.npy
 data/y_2019clinical.npy
 ```
-![text](/results/binarized-antibiotic-prediction-clinical.png)
+![picture](/results/binarized-antibiotic-prediction-clinical.png)
 
 # Bacteria input samples vs Bacteria predicted samples confusion matrix
-![text](/results/bacteria-prediction-confusion-matrix.png)
+![picture](/results/bacteria-prediction-confusion-matrix.png)
 
 # Binarized bacteria into antibiotic confusion matrix
-![text](/results/binarized-antibiotic-confusion-matrix.png)
+![picture](/results/binarized-antibiotic-confusion-matrix.png)
 
