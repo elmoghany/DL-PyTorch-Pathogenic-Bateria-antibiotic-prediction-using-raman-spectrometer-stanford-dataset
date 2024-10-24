@@ -26,8 +26,11 @@ Shape breakdown:
 data/X_reference.npy
 data/y_reference.npy
 ```
-- With non-binarized bacteria predictions
+- With non-binarized bacteria predictions (CNN)
   ![text](/results/bacteria-prediction-x-ref.png)
+  
+- With non-binarized bacteria predictions (ViT Vision Transformer)
+  ![text](/results/bacteria-prediction-x-ref-ViT.png)
 
 - With binarized bacteria predictions
   ![text](/results/binarized-antibiotic-prediction-x-ref.png)
