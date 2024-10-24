@@ -73,3 +73,4 @@ data/y_2019clinical.npy
 # Binarized bacteria into antibiotic confusion matrix
 ![picture](/results/binarized-antibiotic-confusion-matrix.png)
 
+---
